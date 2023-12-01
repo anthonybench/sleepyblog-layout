@@ -1,0 +1,26 @@
+───────────────────────────┐
+  Layout                   │
+───────────────────────────┘
+Miro Diagram:
+  https://miro.com/app/board/uXjVOl1mFxw=/
+
+sideBar {
+  sleepyBoy : (vectorized png),
+  nav       : [About, Software, Tutoring, Furniture],
+  info      : [(link to repo), "Authored by Isaac Yep", "Last updated <m>/<d>/<y>"]
+}
+
+header {
+  homeLink    : "SleepyBlog",
+  themeSelect : (select list dropdown)
+}
+
+content { // views
+  home      : (blog previews),
+  blog      : (blog document),
+  about     : [(blurb), (linkedin badge), (github link), (resume)],
+  software  : 🚧,
+  tutoring  : 🚧,
+  furniture : 🚧
+}
+
