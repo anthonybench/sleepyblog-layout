@@ -6,19 +6,25 @@ export default function Page() {
     <div>
       <p>
         Hello! I'm Isaac 👋<br />
-        I live at the intersection of data & dev-ops.<br />
-        I love communicating math, physics and computer science to help empower others, and equally as much to learn from them.<br />
-        A passionate woodworker, skateboarder, and shredder of maker of dope pizzas.<br /><br />
-        Life long engineer, professional kid.
+        I live at the intersection of DevOps & Data.<br />
+        I believe code is art, and art is personal.<br />
+        I'm a passionate woodworker, skateboarder, and maker of dope pizzas.<br />
+        A life long engineer, and professional kid.
       </p>
 
-      <span>
-        <Link><Image /></Link> {/* TODO: linkedin */}
-        <Link><Image /></Link> {/* TODO: github */}
-      </span>
+      <div>
+        <span>
+          (linkedin badge)
+        </span>
+        <span>
+          <Link href="https://github.com/anthonybench">
+            <Image src="/img/github-mark-black.png" alt="github logo" width={50} height={50}/>
+          </Link>
+        </span>
+      </div>
 
       <p>
-      👉 View my resume {/* TODO: resume modal with download link */}
+        👉 <Link href="/about/resume">View my resume</Link>
       </p>
     </div>
   );

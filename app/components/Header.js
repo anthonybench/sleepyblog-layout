@@ -3,8 +3,11 @@ import Link from 'next/link';
 
 export default function Header() {
   return (
-    <div>
-      TODO: header
-    </div>
+    <header>
+      <Link href="/">
+        <h1 style={{display: "inline-block"}}>SleepyBlog</h1>
+      </Link>
+      <span>(theme select list)</span>
+    </header>
   )
 }
